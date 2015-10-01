@@ -1,0 +1,196 @@
+[17-Jun-2015 20:20:14 UTC] PHP Fatal error:  Call to undefined function getExtension() in /home/c1pirates/public_html/pilot/process_submission.php on line 15
+[17-Jun-2015 20:23:36 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/c1pirates/public_html/pilot/process_submission.php:12
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(12): Imagick->setimageformat('png24')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 12
+[17-Jun-2015 20:26:17 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/c1pirates/public_html/pilot/process_submission.php:14
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(14): Imagick->setimageformat('png24')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 14
+[17-Jun-2015 20:27:54 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/c1pirates/public_html/pilot/process_submission.php:14
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(14): Imagick->setimageformat('png24')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 14
+[17-Jun-2015 20:59:51 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/c1pirates/public_html/pilot/process_submission.php:14
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(14): Imagick->setimageformat('png24')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 14
+[17-Jun-2015 21:17:21 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Can not process empty Imagick object' in /home/c1pirates/public_html/pilot/process_submission.php:13
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(13): Imagick->setimageformat('png24')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 13
+[17-Jun-2015 21:30:55 UTC] PHP Fatal error:  Call to a member function setImageFormat() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 16
+[17-Jun-2015 21:32:40 UTC] PHP Fatal error:  Call to a member function setImageFormat() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 16
+[17-Jun-2015 21:33:34 UTC] PHP Fatal error:  Call to a member function setImageFormat() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 16
+[17-Jun-2015 21:34:07 UTC] PHP Fatal error:  Call to a member function setImageFormat() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 16
+[17-Jun-2015 21:34:38 UTC] PHP Fatal error:  Call to a member function setImageFormat() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 19
+[17-Jun-2015 21:37:31 UTC] PHP Fatal error:  Call to a member function setImageFormat() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 22
+[17-Jun-2015 21:38:55 UTC] PHP Fatal error:  Call to a member function readImageBlob() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 21
+[17-Jun-2015 21:40:38 UTC] PHP Fatal error:  Call to a member function readImageBlob() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 17
+[17-Jun-2015 21:45:33 UTC] PHP Fatal error:  Call to a member function readImageBlob() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 17
+[17-Jun-2015 21:47:52 UTC] PHP Fatal error:  Call to a member function readImageBlob() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 17
+[17-Jun-2015 21:49:34 UTC] PHP Fatal error:  Call to a member function readImageBlob() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 20
+[17-Jun-2015 21:54:30 UTC] PHP Fatal error:  Call to a member function readImageBlob() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 21
+[17-Jun-2015 21:56:23 UTC] PHP Fatal error:  Call to a member function readImageBlob() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 21
+[17-Jun-2015 21:57:21 UTC] PHP Fatal error:  Call to a member function readImageBlob() on a non-object in /home/c1pirates/public_html/pilot/process_submission.php on line 22
+[17-Jun-2015 22:35:36 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXndaIKk' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:29
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(29): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 29
+[17-Jun-2015 23:14:50 UTC] PHP Fatal error:  Call to undefined function http_post_fields() in /home/c1pirates/public_html/pilot/process_submission.php on line 49
+[18-Jun-2015 00:03:59 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XX9ktOim' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:29
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(29): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 29
+[25-Jun-2015 22:44:46 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no image vector graphics; unable to generate SVG `images/cheng.xu.svg' @ svg.c/WriteSVGImage/3348' in /home/c1pirates/public_html/pilot/process_submission.php:51
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(51): Imagick->writeimage('images/cheng.xu...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 51
+[25-Jun-2015 22:46:26 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no image vector graphics; unable to generate SVG `images/cheng.xu.svg' @ svg.c/WriteSVGImage/3348' in /home/c1pirates/public_html/pilot/process_submission.php:51
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(51): Imagick->writeimage('images/cheng.xu...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 51
+[25-Jun-2015 22:51:05 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no image vector graphics; unable to generate SVG `images/test.svg' @ svg.c/WriteSVGImage/3348' in /home/c1pirates/public_html/pilot/process_submission.php:51
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(51): Imagick->writeimage('images/test.svg')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 51
+[29-Jun-2015 23:25:11 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXkfrO4s' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[29-Jun-2015 23:25:13 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXdRW7Fh' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[29-Jun-2015 23:25:16 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXggJGQe' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[29-Jun-2015 23:25:18 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXpwjk6g' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[29-Jun-2015 23:25:29 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XX2bVB8K' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[29-Jun-2015 23:25:32 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXroRS5m' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[29-Jun-2015 23:25:32 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XX2E8z5Z' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[29-Jun-2015 23:25:33 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXZMdDJD' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[29-Jun-2015 23:25:33 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXQLHoPi' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 15:26:54 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXeey3O9' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 15:27:04 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XX6pE2Gm' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 15:27:17 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXME0RTC' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 15:27:19 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XX8MXwxY' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 15:27:56 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXavEJSS' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 15:28:04 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XX2hlTq9' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 16:49:52 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXqYyg3L' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 16:49:57 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XX1LsUTB' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 16:50:39 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXUyRQae' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 16:50:43 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXpf3Wm2' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 16:51:59 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXYdPhG3' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 16:56:23 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXgoPFvZ' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 16:56:29 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXdhiA1p' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[02-Jul-2015 16:56:31 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXc7ZY8U' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[13-Jul-2015 22:17:45 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XX5awfsI' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[13-Jul-2015 22:17:51 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXN5Xiyw' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35
+[13-Jul-2015 22:18:03 UTC] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Memory allocation failed `/tmp/magick-XXZxXQlP' @ svg.c/ReadSVGImage/2825' in /home/c1pirates/public_html/pilot/process_submission.php:35
+Stack trace:
+#0 /home/c1pirates/public_html/pilot/process_submission.php(35): Imagick->readimageblob('<?xml version="...')
+#1 {main}
+  thrown in /home/c1pirates/public_html/pilot/process_submission.php on line 35

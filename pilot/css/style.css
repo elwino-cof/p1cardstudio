@@ -1,0 +1,265 @@
+--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+
+body {
+  background-color: #fff !important;
+  top:0;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'open sans', sans-serif;
+	font-weight:100 !important;
+}
+.ui-content {
+	padding: 5px !important;
+}
+
+h1 {
+	color:#fff;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 0.5em;
+	padding-bottom:0.5em;
+    text-shadow: 0 1px 0 #777;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+h2{
+	color: #F38630;
+	text-align: center; 
+	letter-spacing: 0.2em;
+	font-size: 2em;
+	padding-top: 1em;
+	padding-bottom: 0em;
+
+}
+
+.sectionTitle{
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.h2_sub{
+	color: grey;
+
+	text-align: center; 
+
+	padding-bottom: none;
+	padding-top: 0;
+}
+
+
+#welcomeBg{
+	background-color: grey;
+	position:relative;	
+	height:100vh;
+	max-height: 760px;
+	width: atuo;
+	background-image: url("../swatches/bg.png");
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+#bgBottomWrapper{
+	position: absolute;
+	width: 100%;	
+	bottom: 0;
+	background-color: rgba(0,0,0,0.3);
+	padding: 6px 0;
+}
+
+#bgBottomWrapper p{
+	width: 50%;
+	margin: 0 auto;
+	color: white;
+	text-shadow: 0 2px 1px #333;
+	text-align: center;
+}
+
+#bgBottomWrapper form{ 
+	width: 50%;
+	min-width:200px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+
+#bgBottomWrapper input{
+	text-align: center;
+	color: grey;
+}
+
+
+select, option{
+	width: 300px !important;
+}
+
+
+.text:focus, input:focus {
+	color:black !important;
+}
+
+#selectPhone{
+	width: 300px !important;
+}
+
+.touch_container{
+	position: relative;
+	max-width: 800px !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.touch_mask{
+	position: absolute;
+	background-color: transparent;
+	height: 100%;
+	width: 20%;
+	right:0;
+	top:0;
+	z-index: 12;
+}
+.touch_container ui-content ui-body-c{
+	padding: 0 !important;
+
+}
+
+.touch{
+	z-index: 10;
+}
+
+.ui-field-contain{
+	width: 60%; 
+	max-width: 600px;
+	margin: 0 auto;	
+	text-align: center;
+	padding: 5px;
+}
+
+ul{
+	padding: 0 ; 
+	background-color: #ddd; 
+
+}
+
+.ui-listview>.ui-li-has-thumb>.ui-btn, .ui-listview>.ui-li-static{
+	
+	padding: 0 ;
+}
+
+li {
+	margin:2px 3px 2px 0px !important;
+	background-color: #fff !important;
+	box-shadow: 2px 2px 2px #888888;
+	border-radius: 3 px; 
+	background: #fff !important;
+	display: table !important;
+	width: 100%;
+
+}
+.li_img{
+	border-left: 2px solid  #F38630;
+	width: 40%;
+	max-width: 160px !important;
+	min-width: 70px !important;
+	background: #fff;
+	vertical-align: middle;
+	float:none;
+	display: table-cell	!important;
+}
+.li_img_des {
+	background-color: #eee;
+	width: 60%;
+	height: 100%;
+	float:none;
+	margin: 0 0 0 0 !important;
+	padding: 5px  !important;
+	display: table-cell	!important;
+}
+
+
+li img{
+	margin: 5px auto;
+	padding: 0 0 0 5px ;
+	width: 95%;	
+	vertical-align: middle !important;
+}
+
+li h3{
+	margin: 0 !important;
+}
+
+li p{
+	margin: 0 ;
+	word-wrap: break-word !important;
+	overflow: visible !important;
+	font-size: 1em;
+
+
+}
+
+
+.li_img_des p{
+	white-space: normal !important;  /*makes the text wrap*/
+	margin: 0px;
+	padding: 0px;
+	color: grey;
+}
+
+#signatureWrapper{
+	background-color:#ddd;
+ 	padding: 5px;
+  	height: 220px;
+	
+}
+
+#signature {
+  padding: 0 0 0 0; 
+  margin: 0 0 0 0;
+    width: 100%;
+  height: 100% ;
+}
+
+#signature canvas.jSignature { 
+	height: 220px !important; 
+}
+
+#submitContainer{
+	text-align: center;
+	width: 100%;
+}
+
+#submit_form{
+	width: 200px;
+	margin: 0 auto;
+	vertical-align: middle;
+	text-align: center;
+}
+.spacer{
+	width: 100%;
+	height: 4em;
+}
+
+.smallspacer{
+	width: 100%;
+	height: 4em;
+}
+
+
+
+
